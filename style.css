@@ -61,9 +61,15 @@ ul li a {
 
   ul li {
     font-size: 14px;
+
   }
 
   ul li:not(:first-child) {
     border-top: solid 1px #fff;
+  }
+
+  ul li.active {
+    border-left: solid 4px #15a1a2;
+    border-top: none;
   }
 }
